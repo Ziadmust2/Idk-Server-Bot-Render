@@ -8,7 +8,7 @@ import webserver
 # -----------------------------
 # Config
 # -----------------------------
-TOKEN = os.environ['MTQ2NzEyNTQwNzAwNTU0MDM2NQ.GF5vGJ.eew6N_2V8QHfepFjr6kLJ6-I-G5eoi_n9xnvOM']  # Set this in your environment
+TOKEN = os.environ['discordkey']  # Set this in your environment
 MATH_CHANNEL_ID = 1467118980530704519  # Replace with your math channel ID
 
 # Points milestones and roles
@@ -136,3 +136,4 @@ async def check_roles(ctx):
 # Run bot
 # -----------------------------
 bot.run("DISCORD_TOKEN")
+
